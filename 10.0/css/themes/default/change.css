@@ -1,0 +1,16 @@
+.semicircle {
+  border-radius: 1000px;
+}
+
+.bdrs0 {
+  border-radius: 0;
+}
+
+.para-container .fr-horizontalboxlayout:nth-child(1) {
+  display: none !important;
+}
+
+div[widgetname=BODY] {
+  width: 100% !important;
+  height: 100% !important;
+}

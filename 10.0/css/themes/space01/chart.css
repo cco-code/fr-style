@@ -1,0 +1,99 @@
+.chart {
+
+}
+
+
+
+.chart text {
+  fill: rgba(0, 212, 255, 0.7) !important;
+}
+
+.chart-pie {
+  fill: rgba(0, 212, 255, 0.7) !important;
+}
+
+
+
+.chart-pie div div svg g g g path {
+  stroke: #061621 !important;
+  stroke-width: 2 !important;
+}
+
+.chart-pie div div svg g g g path:nth-child(5) {
+  fill: #9EC1A3 !important;
+}
+
+.chart-pie div div svg g g g path:nth-child(4) {
+  fill: #CFE0C3 !important;
+}
+
+.chart-pie div div svg g g g path:nth-child(3) {
+  fill: #F1BF98 !important;
+}
+
+.chart-pie div div svg g g g path:nth-child(2) {
+  fill: #40798C !important;
+}
+
+.chart-pie div div svg g g g path:nth-child(1) {
+  fill: #70A9A1 !important;
+}
+
+.chart-pie div div svg g g g g g:nth-child(1) path {
+  fill: #70A9A1 !important;
+  fill-opacity: 0.9 !important;
+}
+
+.chart-pie div div svg g g g g g:nth-child(2) path {
+  fill: #40798C !important;
+  fill-opacity: 0.9 !important;
+}
+
+.chart-pie div div svg g g g g g:nth-child(3) path {
+  fill: #F1BF98 !important;
+  fill-opacity: 0.9 !important;
+}
+
+.chart-pie div div svg g g g g g:nth-child(4) path {
+  fill: #CFE0C3 !important;
+  fill-opacity: 0.9 !important;
+}
+
+.chart-pie div div svg g g g g g:nth-child(5) path {
+  fill: #9EC1A3 !important;
+  fill-opacity: 0.9 !important;
+}
+
+.chart-pie text {
+  fill: rgba(0, 212, 255, 0.7) !important;
+}
+
+
+
+.chart-area {
+
+}
+
+.chart-area div div svg g g:nth-child(1) path:nth-child(1) {
+  stroke: #083D77 !important;
+}
+
+.chart-area div div svg g g:nth-child(1) path:nth-child(2) {
+  stroke: none !important;
+}
+
+.chart-area div div svg g g:nth-child(1) g path {
+  fill: #083D77 !important;
+}
+
+.chart-area div div svg g g:nth-child(2) path:nth-child(1) {
+  stroke: #FC9F5B !important;
+}
+
+.chart-area div div svg g g:nth-child(2) path:nth-child(2) {
+  stroke: none !important;
+}
+
+.chart-area div div svg g g:nth-child(2) g path {
+  fill: #FC9F5B !important;
+}
