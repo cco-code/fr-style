@@ -18,3 +18,14 @@ div[widgetname=BODY] {
 .fr-combo-selected {
   background: none;
 }
+
+.report-border {
+  border-radius: 3px !important;
+  border-color: rgba(46, 199, 255, 0.4) !important;
+}
+
+.reportContent {
+  border-width: 1px !important;
+  border-radius: 3px !important;
+  border-color: rgba(46, 199, 255, 0.4) !important;
+}
