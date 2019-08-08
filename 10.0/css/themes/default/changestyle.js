@@ -19,6 +19,8 @@ function changeStyle() {
   $("[widgetname^='CHART_PIE']").children().addClass("chart-pie");
   $("[widgetname^='CHART_AREA']").children().addClass("chart-area");
 
+  $("[widgetname^='REPORT_BORDER']").addClass("report-border");
+
   $("[widgetname*='SEMICIRCLE']").children().addClass("semicircle");
   $("[widgetname*='BDRS0']").children().addClass("bdrs0");
 };
