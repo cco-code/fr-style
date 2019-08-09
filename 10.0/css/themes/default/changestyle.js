@@ -8,10 +8,12 @@ function changeStyle() {
   $("[widgetname^='LABEL_NORMAL']").addClass("label-normal");
   $("[widgetname^='LABEL_BORDER']").addClass("label-border");
   $("[widgetname^='LABEL_TOPTITLE']").addClass("label-toptitle");
+  $("[widgetname^='LABEL_REPORTTITLE']").addClass("label-reporttitle");
   $("[widgetname^='LABEL_BODY']").addClass("label-body");
   $("[widgetname^='LABEL_TITLEBAR']").addClass("label-titlebar");
   $("[widgetname^='LABEL_BGNM']").addClass("label-bgnm");
   $("[widgetname^='LABEL_BGBD']").addClass("label-bgbd");
+  $("[widgetname^='LABEL_REPORTBG']").addClass("label-reportbg");
   $("[widgetname^='TEXTEDITOR_NORMAL']").addClass("textEditor-normal");
   $("[widgetname^='COMBOBOX_NORMAL']").addClass("comboBox-normal");
 

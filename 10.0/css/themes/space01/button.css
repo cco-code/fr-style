@@ -12,7 +12,8 @@
   padding-left: 10px;
   font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
   font-weight: bold !important;
-  color: #fcfcfc !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.9);
 }
 
 .comboBox-choicedown {
@@ -57,8 +58,12 @@
   width: 30px !important;
   height: 100% !important;
   right: 0px;
-  border: none;
-  background-color: #0986ff;
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  border-radius: 3px;
+  background: none;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
+  box-shadow: 0 0 10px 1px rgba(0, 212, 255, 0.9) inset;
+  box-sizing: border-box;
 }
 
 .comboBox-choicedown div:nth-child(2):hover {
@@ -84,8 +89,12 @@
 }
 
 .btn-done {
-  background-color: #0986ff;
-  box-shadow: 0px 0px 3px 3px rgba(47, 121, 206, 0.9);
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  border-radius: 3px;
+  background: none;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
+  box-shadow: 0 0 10px 1px rgba(0, 212, 255, 0.9) inset;
+  box-sizing: border-box;
 }
 
 .btn-done button {
@@ -96,11 +105,11 @@
 }
 
 .btn-done:hover {
-  background-color: rgba(9, 134, 255, 0.7);
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.4) 50%, rgba(0, 212, 255, 0.2) 100%);
 }
 
 .btn-done:active {
-  background-color: #389eff;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.3) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(0, 212, 255, 0.3) 100%);
 }
 
 .para-container {
@@ -110,9 +119,10 @@
 
 .para-container .fr-horizontalboxlayout:nth-child(2) {
   position: relative;
-  border: 1px solid rgba(0, 212, 255, 0.4);
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.1) 50%, rgba(0, 212, 255, 0) 100%);
-  box-shadow: 0 0 10px 1px rgba(0, 212, 255, 0.5) inset;
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
+  box-shadow: 0 0 30px 1px rgba(0, 212, 255, 0.9) inset;
+  box-sizing: border-box;
 }
 
 /*按鈕*/
@@ -196,30 +206,120 @@
 }
 
 .label-toptitle {
+  border-radius: 4px 4px 0 0;
+}
 
+.label-toptitle:before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 100%;
+  background-color: #061621;
+}
+
+.label-toptitle:after {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 100%;
+  background-color: #061621;
 }
 
 .label-toptitle pre {
   width: 100% !important;
-  padding-left: 10px;
   font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
   font-weight: 500 !important;
-  color: rgba(255, 255, 255, 0.3) !important;
+  text-align: center !important;
+  color: rgba(255, 255, 255, 0.5) !important;
   letter-spacing: 1px;
   text-shadow: 0 0 8px rgba(0, 212, 255, 0.9);
 }
 
-.label-bgnm {
-  border-radius: 5px;
-  background-color: rgba(56, 158, 255, 0.2);
+.label-reporttitle {
+  border-radius: 4px 4px 0 0;
+  background-color: rgba(0, 212, 255, 0.2);
+}
+
+.label-reporttitle:before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 100%;
+  background-color: #061621;
+}
+
+.label-reporttitle:after {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 100%;
+  background-color: #061621;
+}
+
+.label-reporttitle pre {
+  width: 100% !important;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.9);
 }
 
 .label-bgbd {
-  position: relative;
-  border: 1px solid rgba(0, 212, 255, 0.4);
-  border-radius: 8px;
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.1) 50%, rgba(0, 212, 255, 0) 100%);
-  box-shadow: 0 0 10px 1px rgba(0, 212, 255, 0.5) inset;
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  border-radius: 4px;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
+  box-shadow: 0 0 30px 1px rgba(0, 212, 255, 0.9) inset;
+  box-sizing: border-box;
+}
+
+.label-bgbd:before {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 100%;
+  background-color: #061621;
+}
+
+.label-bgbd:after {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 100%;
+  background-color: #061621;
+}
+
+.label-reportbg {
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  border-radius: 4px;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
+  box-shadow: 0 0 30px 1px rgba(0, 212, 255, 0.9) inset;
+  box-sizing: border-box;
 }
 
 /*下拉框*/
