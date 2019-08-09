@@ -206,9 +206,8 @@ k6Q2NfMsE3Olmbod7o']A4f]A'd^PFfPp~
 <Dictionary class="com.fr.data.impl.CustomDictionary">
 <CustomDictAttr>
 <Dict key="default" value="default"/>
-<Dict key="simple" value="simple"/>
-<Dict key="space01" value="太空綠"/>
-<Dict key="test" value="test"/>
+<Dict key="space01" value="borderGreen"/>
+<Dict key="transparency" value="transparency"/>
 </CustomDictAttr>
 </Dictionary>
 <widgetValue>
@@ -305,7 +304,7 @@ setTimeout(function(){changeStyle();},500);
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
-<WidgetName name="report1_c"/>
+<WidgetName name="REPORT_BORDER_01"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -323,17 +322,17 @@ setTimeout(function(){changeStyle();},500);
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ElementCaseEditor">
-<WidgetName name="report1_c"/>
+<WidgetName name="REPORT_BORDER_01"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="1" color="-16152833" borderRadius="2" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新增標題]]></O>
-<FRFont name="Dialog" style="0" size="72"/>
+<FRFont name="18thCentury" style="0" size="72"/>
 <Position pos="0"/>
 </WidgetTitle>
 <Alpha alpha="1.0"/>
@@ -6442,7 +6441,7 @@ Q+`i+M38uH!12s1Fb2eZh&g7M%KMedXmb'C3A$0[[%1rQQrPtaa3;*/kTDUn~
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
-<WidgetName name="report0"/>
+<WidgetName name="REPORT_BORDER_02"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -6460,7 +6459,7 @@ Q+`i+M38uH!12s1Fb2eZh&g7M%KMedXmb'C3A$0[[%1rQQrPtaa3;*/kTDUn~
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ElementCaseEditor">
-<WidgetName name="report0"/>
+<WidgetName name="REPORT_BORDER_02"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -7191,7 +7190,7 @@ mGR0kr'pNkP?SK2)&sLf@n6?hE?l[ff%aL/>=,@gSC0o%C-F_oWm6r)ur7Bs.?N+^0.r.?E5
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="LABEL_TOPTITLE_02"/>
+<WidgetName name="LABEL_REPORTTITLE_02"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -7207,7 +7206,7 @@ mGR0kr'pNkP?SK2)&sLf@n6?hE?l[ff%aL/>=,@gSC0o%C-F_oWm6r)ur7Bs.?N+^0.r.?E5
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="LABEL_TOPTITLE_01"/>
+<WidgetName name="LABEL_REPORTTITLE_01"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -7305,7 +7304,7 @@ mGR0kr'pNkP?SK2)&sLf@n6?hE?l[ff%aL/>=,@gSC0o%C-F_oWm6r)ur7Bs.?N+^0.r.?E5
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="LABEL_BGBD_02"/>
+<WidgetName name="LABEL_REPORTBG_02"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -7321,7 +7320,7 @@ mGR0kr'pNkP?SK2)&sLf@n6?hE?l[ff%aL/>=,@gSC0o%C-F_oWm6r)ur7Bs.?N+^0.r.?E5
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="LABEL_BGBD_01"/>
+<WidgetName name="LABEL_REPORTBG_01"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -7354,7 +7353,7 @@ mGR0kr'pNkP?SK2)&sLf@n6?hE?l[ff%aL/>=,@gSC0o%C-F_oWm6r)ur7Bs.?N+^0.r.?E5
 <Sorted sorted="false"/>
 <MobileWidgetList>
 <Widget widgetName="LABEL_BODY_01"/>
-<Widget widgetName="LABEL_BGBD_01"/>
+<Widget widgetName="LABEL_REPORTBG_01"/>
 <Widget widgetName="LABEL_BGBD_03"/>
 <Widget widgetName="LABEL_BGBD_04"/>
 <Widget widgetName="LABEL_BGBD_05"/>
@@ -7363,11 +7362,11 @@ mGR0kr'pNkP?SK2)&sLf@n6?hE?l[ff%aL/>=,@gSC0o%C-F_oWm6r)ur7Bs.?N+^0.r.?E5
 <Widget widgetName="CHART_PIE_01"/>
 <Widget widgetName="chart3"/>
 <Widget widgetName="chart3_c"/>
-<Widget widgetName="report1_c"/>
+<Widget widgetName="REPORT_BORDER_01"/>
 <Widget widgetName="LABEL_BGBD_06"/>
 <Widget widgetName="CHART_AREA_01"/>
-<Widget widgetName="LABEL_BGBD_02"/>
-<Widget widgetName="report0"/>
+<Widget widgetName="LABEL_REPORTBG_02"/>
+<Widget widgetName="REPORT_BORDER_02"/>
 <Widget widgetName="LABEL_BGBD_07"/>
 <Widget widgetName="chart1"/>
 </MobileWidgetList>
