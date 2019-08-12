@@ -18,14 +18,13 @@
 
 .comboBox-choicedown {
   border-radius: 3px;
-  background-color: #0986ff;
-  box-shadow: 0px 0px 3px 3px rgba(47, 121, 206, 0.9);
 }
 
 .comboBox-choicedown > div:nth-child(1) {
   width: calc(100% - 30px) !important;
   height: 100% !important;
   border: none;
+  background-color: transparent;
   overflow: initial;
 }
 
@@ -33,11 +32,15 @@
   width: 100% !important;
   height: 100% !important;
   padding: 0px 8px !important;
-  border: none;
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  border-radius: 3px 0 0 3px;
   line-height: 100%;
   font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
   color: #fcfcfc;
-  background-color: #1371d7;
+  background: #061621 !important;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
+  //box-shadow: 0 0 10px 1px rgba(0, 212, 255, 0.9) inset;
+  box-sizing: border-box;
 }
 
 .comboBox-choicedown div:nth-child(1) input:-moz-placeholder {
@@ -59,7 +62,7 @@
   height: 100% !important;
   right: 0px;
   border: 1px solid rgba(0, 212, 255, 0.6);
-  border-radius: 3px;
+  border-radius: 0 3px 3px 0;
   background: none;
   background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
   box-shadow: 0 0 10px 1px rgba(0, 212, 255, 0.9) inset;
@@ -67,11 +70,11 @@
 }
 
 .comboBox-choicedown div:nth-child(2):hover {
-  background-color: #389eff;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.1) 0%, rgba(0, 212, 255, 0.3) 50%, rgba(0, 212, 255, 0.1) 100%);
 }
 
 .comboBox-choicedown div:nth-child(2):active {
-  background-color: #1371d7;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.4) 50%, rgba(0, 212, 255, 0.2) 100%);
 }
 
 .comboBox-choicedown div:nth-child(2) div {
@@ -119,6 +122,7 @@
 
 .para-container .fr-horizontalboxlayout:nth-child(2) {
   position: relative;
+  width: 100vw;
   border: 1px solid rgba(0, 212, 255, 0.6);
   background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
   box-shadow: 0 0 30px 1px rgba(0, 212, 255, 0.9) inset;
