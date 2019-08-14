@@ -7,7 +7,7 @@
 }
 
 .para-container .fr-horizontalboxlayout:nth-child(1) {
-  display: none !important;
+  //display: none !important;
 }
 
 div[widgetname=BODY] {

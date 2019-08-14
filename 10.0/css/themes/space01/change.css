@@ -7,7 +7,7 @@
 }
 
 .para-container .fr-horizontalboxlayout:nth-child(1) {
-  display: none !important;
+  //display: none !important;
 }
 
 div[widgetname=BODY] {
@@ -17,4 +17,20 @@ div[widgetname=BODY] {
 
 .fr-combo-selected {
   background: none;
+}
+
+.rbar {
+  border-radius: 0 5px 5px 0;
+}
+
+.lbar {
+  border-radius: 5px 0 0 5px;
+}
+
+.tbar {
+ border-radius: 5px 5px 0 0;
+}
+
+.bbar {
+ border-radius: 0 0 5px 5px;
 }

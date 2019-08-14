@@ -14,13 +14,20 @@ function changeStyle() {
   $("[widgetname^='LABEL_BGNM']").addClass("label-bgnm");
   $("[widgetname^='LABEL_BGBD']").addClass("label-bgbd");
   $("[widgetname^='LABEL_REPORTBG']").addClass("label-reportbg");
+  $("[widgetname^='LABEL_MIDDLE']").addClass("label-middle");
+  $("[widgetname^='LABEL_SUBTITLE']").addClass("label-subtitle");
   $("[widgetname^='TEXTEDITOR_NORMAL']").addClass("textEditor-normal");
+  $("[widgetname^='NUMBEREDITOR']").addClass("numberEditor");
+  $("[widgetname^='NUMBEREDITOR_END']").addClass("numberEditor-end");
   $("[widgetname^='COMBOBOX_NORMAL']").addClass("comboBox-normal");
+  $("[widgetname^='COMBOCHECKBOX_NORMAL']").addClass("comboCheckBox-normal");
+  $("[widgetname^='CHECKBOX']").addClass("checkBox");
 
   $("[widgetname^='CHART']").children().addClass("chart");
   $("[widgetname^='CHART_PIE']").children().addClass("chart-pie");
   $("[widgetname^='CHART_AREA']").children().addClass("chart-area");
 
+  $("[widgetname^='REPORT']").addClass("report");
   $("[widgetname^='REPORT_BORDER']").addClass("report-border");
 
   $("[widgetname*='SEMICIRCLE']").children().addClass("semicircle");
