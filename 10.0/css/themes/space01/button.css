@@ -440,6 +440,7 @@
 }
 
 .view-container > div > div {
+  height: 18px;
   padding: 5px;
   border: none !important;
   font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
@@ -455,6 +456,34 @@
 
 .view-container .fr-combo-list-item-noselect {
   color: rgba(0, 212, 255, 0.3) !important;
+}
+
+.view-container .fr-checkbox-list div div span {
+  color: rgba(0, 212, 255, 0.7) !important;
+}
+
+.view-container .fr-checkbox-list div:hover div span {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+.view-container .fr-checkbox-list .fr-checkbox-checkoff {
+  position: absolute;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border-radius: 5px;
+  background: none;
+  box-sizing: border-box;
+}
+
+.view-container .fr-checkbox-list .fr-checkbox-checkon {
+  position: absolute;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border: 1px solid rgba(0, 212, 255, 0.8);
+  border-radius: 5px;
+  background: none;
+  background-color: rgba(0, 212, 255, 0.7) !important;
+  box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -554,6 +583,17 @@
   margin-top: 0 !important;
 }
 
+
+
+.fr-checkbox-control {
+  background: transparent;
+  line-height: 15px;
+}
+
+.fr-combo-list-item {
+  line-height: 15px;
+}
+
 /*文字編輯*/
 .textEditor-normal {
   border: 1px solid rgba(0, 212, 255, 0.3);
@@ -608,6 +648,7 @@
   border-radius: 0 5px 5px 0;
   background-color: #061621;
   box-sizing: border-box;
+  cursor: pointer;
   overflow: hidden;
 }
 
@@ -678,12 +719,16 @@
   cursor: pointer;
 }
 
-.report-button:hover, .report-button:focus {
+.report-button:hover {
   background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.4) 50%, rgba(0, 212, 255, 0.2) 100%);
 }
 
 .report-button:active {
   background-image: linear-gradient(to left, rgba(0, 212, 255, 0.3) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(0, 212, 255, 0.3) 100%);
+}
+
+.report-button-focus {
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.4) 50%, rgba(0, 212, 255, 0.2) 100%);
 }
 
 .b1 {
