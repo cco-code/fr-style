@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+
+/*下拉複選框*/
+.comboCheckBox {
+
+}
+
+.comboCheckBox {
+  //position: relative !important;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.comboCheckBox > div:nth-child(1) {
+  position: absolute !important;
+  width: calc(100% - 30px) !important;
+  height: 100% !important;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 3px 0px 0px 3px;
+  background-color: #061621;
+  box-sizing: border-box;
+}
+
+.comboCheckBox > div:nth-child(1) > div {
+  //position: absolute !important;
+}
+
+.comboCheckBox > div:nth-child(1) > div .fr-tageditor-tag {
+  border: 1px solid rgba(0, 212, 255, 0.5);
+  border-radius: 2px;
+  line-height: 100%;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
+  color: white;
+  background-color: rgba(0, 212, 255, 0.3);
+}
+
+
+.comboCheckBox > div:nth-child(1) input {
+  //width: 100% !important;
+  height: 100% !important;
+  padding: 0px 8px !important;
+  border-right: none;
+  background-color: transparent;
+  line-height: 100%;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
+  color: white;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+.comboCheckBox > div:nth-child(2) {
+  position: absolute !important;
+  width: 30px !important;
+  height: 100% !important;
+  right: 0px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 0px 3px 3px 0px;
+  background-color: #061621;
+  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.3) inset;
+  box-sizing: border-box;
+}
+
+.comboCheckBox > div:nth-child(2):hover {
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.3) 50%, rgba(0, 212, 255, 0.2) 100%);
+}
+
+.comboCheckBox > div:nth-child(2):active {
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.4) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(0, 212, 255, 0.4) 100%);
+}
+
+.comboCheckBox > div:nth-child(2):active div {
+  border-color: rgba(0, 212, 255, 0.7) transparent transparent transparent;
+}
+
+.comboCheckBox > div:nth-child(2) div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 6px 0 6px;
+  border-color: rgba(0, 212, 255, 0.5) transparent transparent transparent;
+  background: none;
+  margin-top: 0 !important;
+}
+
+/*下拉複選彈出框*/
+.fr-checkbox-list div div span {
+  color: rgba(0, 212, 255, 0.7) !important;
+}
+
+.fr-checkbox-list div:hover div span {
+  color: rgba(255, 255, 255, 0.98) !important;
+}
+
+.fr-checkbox-list .fr-checkbox-checkoff {
+  position: absolute;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border-radius: 5px;
+  background: none;
+  box-sizing: border-box;
+}
+
+.fr-checkbox-list .fr-checkbox-checkon {
+  position: absolute;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border: 1px solid rgba(0, 212, 255, 0.8);
+  border-radius: 5px;
+  background: none;
+  background-color: rgba(0, 212, 255, 0.7) !important;
+  box-sizing: border-box;
+}
+
+.fr-checkbox-list .fr-combo-selected {
+  cursor: default;
+}
+
+
+.fr-checkbox-list .fr-checkbox-control {
+  background: transparent;
+  line-height: 15px;
+}
+
+.fr-checkbox-list .fr-combo-list-item {
+  line-height: 15px;
+}

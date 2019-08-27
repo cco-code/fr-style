@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+
+/*文字編輯*//*數字編輯*//*文字域*//*密碼*/
+.textEditor, .numberEditor, .textArea, .password {
+  background-color: #061621;
+  box-sizing: border-box;
+}
+
+.textEditor input, .numberEditor input, .textArea textarea, .password input {
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 5px;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  line-height: 100%;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
+  font-weight: bold;
+  color: rgba(252, 252, 252, 0.9);
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.textEditor input::-webkit-input-placeholder, .numberEditor input::-webkit-input-placeholder, .textArea textarea::-webkit-input-placeholder, .password input::-webkit-input-placeholder {
+  color: rgba(0, 212, 255, 0.4);
+}
+
+.fr-invalid, textarea .fr-invalid {
+  border: 2px solid rgba(255, 21, 0, 0.3) !important;
+  color: rgba(255, 21, 0, 0.9) !important;
+  background: none !important;
+  background-color: rgba(255, 21, 0, 0.1) !important;
+}

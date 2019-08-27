@@ -1,20 +1,25 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+@import url("datepicker.css");
+@import url("treeEditor.css");
+@import url("treeComboBoxEditor.css");
+@import url("multiFileUploader.css");
+@import url("tabLayout.css");
+@import url("comboBox.css");
+@import url("comboCheckBox.css");
+@import url("text.css");
+@import url("checkGroup.css");
+@import url("label.css");
 
+
+.body {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #061621;
+}
 
 /*參數面版*/
-.label-bigtitle {
 
-}
-
-.label-bigtitle pre {
-  width: 100% !important;
-  padding-left: 10px;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
-  font-weight: bold !important;
-  color: rgba(255, 255, 255, 1) !important;
-  text-shadow: 0 0 8px rgba(0, 212, 255, 0.9);
-}
 
 .comboBox-choicedown {
   border-radius: 3px;
@@ -61,7 +66,7 @@
   width: 30px !important;
   height: 100% !important;
   right: 0px;
-  border: 1px solid rgba(0, 212, 255, 0.6);
+  border: 1px solid rgba(0, 212, 255, 0.6) !important;
   border-radius: 0 3px 3px 0;
   background: none;
   background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
@@ -143,23 +148,28 @@
 }
 
 /*按鈕*/
-.btn-normal {
-  background-color: #0986ff;
+.button {
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  border-radius: 3px;
+  background: none;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
+  box-shadow: 0 0 10px 1px rgba(0, 212, 255, 0.6) inset;
+  box-sizing: border-box;
 }
 
-.btn-normal button {
+.button button {
   width: 100%;
   height: 100% !important;
   font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
   color: #fcfcfc;
 }
 
-.btn-normal:hover {
-  background-color: rgba(9, 134, 255, 0.7);
+.button:hover {
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.4) 50%, rgba(0, 212, 255, 0.2) 100%);
 }
 
-.btn-normal:active {
-  background-color: #389eff;
+.button:active {
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.3) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(0, 212, 255, 0.3) 100%);
 }
 
 .btn-border {
@@ -190,306 +200,15 @@
   color: #fcfcfc;
 }
 
-/*標籤*/
-.label-body {
-  width: 100% !important;
-  height: 100% !important;
-  background-color: #061621;
-}
 
-.label-normal {
-  background-color: #0986ff;
-}
 
-.label-border {
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 5px 0 0 5px;
-  box-sizing: border-box;
-  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.3) inset;
-}
 
-.label-border table {
-  width: 100% !important;
-  height: 100% !important;
-  box-sizing: border-box;
-}
-
-.label-normal pre, .label-border pre {
-  width: 100% !important;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
-  font-weight: 500 !important;
-  color: rgba(255, 255, 255, 0.8) !important;
-  text-shadow: 0 0 8px rgba(0, 212, 255, 0.4);
-}
-
-.label-toptitle {
-  border-radius: 4px 4px 0 0;
-}
-
-.label-toptitle:before {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 100%;
-  background-color: #061621;
-}
-
-.label-toptitle:after {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 100%;
-  background-color: #061621;
-}
-
-.label-toptitle pre {
-  width: 100% !important;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
-  font-weight: 500 !important;
-  text-align: center !important;
-  color: rgba(255, 255, 255, 0.9) !important;
-  letter-spacing: 1px;
-  text-shadow: 0 0 8px rgba(0, 212, 255, 0.9);
-}
-
-.label-reporttitle {
-  border-radius: 4px 4px 0 0;
-  background-color: rgba(0, 212, 255, 0.2);
-}
-
-.label-reporttitle:before {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 100%;
-  background-color: #061621;
-}
-
-.label-reporttitle:after {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 100%;
-  background-color: #061621;
-}
-
-.label-reporttitle pre {
-  width: 100% !important;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
-  font-weight: 500 !important;
-  text-align: center !important;
-  color: rgba(255, 255, 255, 0.9) !important;
-  letter-spacing: 1px;
-  text-shadow: 0 0 8px rgba(0, 212, 255, 0.9);
-}
-
-.label-bgbd {
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 4px;
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
-  box-shadow: 0 0 30px 1px rgba(0, 212, 255, 0.3) inset;
-  box-sizing: border-box;
-}
-
-.label-bgbd:before {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 100%;
-  background-color: #061621;
-}
-
-.label-bgbd:after {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 100%;
-  background-color: #061621;
-}
-
-.label-reportbg {
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 4px;
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
-  box-shadow: 0 0 30px 1px rgba(0, 212, 255, 0.3) inset;
-  box-sizing: border-box;
-}
-
-.label-middle, .label-subtitle {
-  box-sizing: border-box;
-}
-
-.label-middle {
-  border: 1px solid rgba(0, 212, 255, 0.1);
-  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.1) inset;
-}
-
-.label-subtitle {
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  padding-left: 8px;
-  border-radius: 5px 0 0 5px;
-  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.3) inset;
-}
-
-.label-middle table, .label-subtitle table {
-  width: 100% !important;
-  height: 100% !important;
-  box-sizing: border-box;
-}
-
-.label-middle pre, .label-subtitle pre {
-  width: 100% !important;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
-  font-weight: 500 !important;
-  color: rgba(255, 255, 255, 0.8) !important;
-  text-shadow: 0 0 8px rgba(0, 212, 255, 0.4);
-}
-
-/*下拉框*/
-.comboBox-normal {
-
-}
-
-.comboBox-normal > div:nth-child(1) {
-  width: calc(100% - 30px) !important;
-  height: 100% !important;
-  border: none;
-  overflow: initial;
-}
-
-.comboBox-normal div:nth-child(1) input {
-  width: 100% !important;
-  height: 100% !important;
-  padding: 0px 8px !important;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-right: none;
-  line-height: 100%;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
-  color: rgba(0, 212, 255, 0.8);
-  background-color: #061621;
-  box-sizing: border-box;
-}
-
-.comboBox-normal div:nth-child(2) {
-  position: absolute !important;
-  width: 30px !important;
-  height: 100% !important;
-  right: 0px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 0px 3px 3px 0px;
-  background-color: #061621;
-  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.3) inset;
-  box-sizing: border-box;
-}
-
-.comboBox-normal div:nth-child(2):hover {
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.3) 50%, rgba(0, 212, 255, 0.2) 100%);
-}
-
-.comboBox-normal div:nth-child(2):active {
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.4) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(0, 212, 255, 0.4) 100%);
-}
-
-.comboBox-normal div:nth-child(2):active div {
-  border-color: rgba(0, 212, 255, 0.7) transparent transparent transparent;
-}
-
-.comboBox-normal div:nth-child(2) div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 6px 0 6px;
-  border-color: rgba(0, 212, 255, 0.5) transparent transparent transparent;
-  background: none;
-  margin-top: 0 !important;
-}
-
-.view-container > div {
-  border: 1px solid rgba(0, 212, 255, 0.5);
-  border-radius: 0 0 3px 3px;
-  background: rgba(6, 22, 33, 0.8) !important;
-  box-shadow:  0 0 10px 0 rgba(0, 212, 255, 0.5) inset;
-}
-
-.view-container > div > div {
-  height: 18px;
-  padding: 5px;
-  border: none !important;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
-  font-weight: bold;
-  color: rgba(0, 212, 255, 0.7);
-}
-
-.view-container > div > div:hover {
-  border: none !important;
-  color: rgba(0, 212, 255, 0.8);
-  background: rgba(0, 212, 255, 0.4);
-}
-
-.view-container .fr-combo-list-item-noselect {
-  color: rgba(0, 212, 255, 0.3) !important;
-}
-
-.view-container .fr-checkbox-list div div span {
-  color: rgba(0, 212, 255, 0.7) !important;
-}
-
-.view-container .fr-checkbox-list div:hover div span {
-  color: rgba(255, 255, 255, 0.98) !important;
-}
-
-.view-container .fr-checkbox-list .fr-checkbox-checkoff {
-  position: absolute;
-  padding-left: 5px !important;
-  padding-right: 5px !important;
-  border-radius: 5px;
-  background: none;
-  box-sizing: border-box;
-}
-
-.view-container .fr-checkbox-list .fr-checkbox-checkon {
-  position: absolute;
-  padding-left: 5px !important;
-  padding-right: 5px !important;
-  border: 1px solid rgba(0, 212, 255, 0.8);
-  border-radius: 5px;
-  background: none;
-  background-color: rgba(0, 212, 255, 0.7) !important;
-  box-sizing: border-box;
-}
-
+/*滾動條*/
 ::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner {
   background: rgba(6, 22, 33, 0.9);
 }
 ::-webkit-scrollbar-thumb {
@@ -498,154 +217,10 @@
 }
 
 
-/*下拉複選框*/
-.comboCheckBox {
-
-}
-
-.comboCheckBox-normal {
-  //position: relative !important;
-  display: inline-block;
-  box-sizing: border-box;
-}
-
-.comboCheckBox-normal > div:nth-child(1) {
-  position: absolute !important;
-  width: calc(100% - 30px) !important;
-  height: 100% !important;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  background-color: #061621;
-  box-sizing: border-box;
-}
-
-.comboCheckBox-normal > div:nth-child(1) > div {
-  position: absolute !important;
-}
-
-.comboCheckBox-normal > div:nth-child(1) > div .fr-tageditor-tag {
-  border: 1px solid rgba(0, 212, 255, 0.5);
-  border-radius: 2px;
-  line-height: 100%;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
-  color: white;
-  background-color: rgba(0, 212, 255, 0.3);
-}
-
-
-.comboCheckBox-normal > div:nth-child(1) input {
-  width: 100% !important;
-  height: 100% !important;
-  padding: 0px 8px !important;
-  border-right: none;
-  background-color: transparent;
-  line-height: 100%;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
-  color: rgba(0, 212, 255, 0.8);
-  cursor: default;
-  box-sizing: border-box;
-}
-
-.comboCheckBox-normal > div:nth-child(2) {
-  position: absolute !important;
-  width: 30px !important;
-  height: 100% !important;
-  right: 0px;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 0px 3px 3px 0px;
-  background-color: #061621;
-  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.3) inset;
-  box-sizing: border-box;
-}
-
-.comboCheckBox-normal > div:nth-child(2):hover {
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.3) 50%, rgba(0, 212, 255, 0.2) 100%);
-}
-
-.comboCheckBox-normal > div:nth-child(2):active {
-  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.4) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(0, 212, 255, 0.4) 100%);
-}
-
-.comboCheckBox-normal > div:nth-child(2):active div {
-  border-color: rgba(0, 212, 255, 0.7) transparent transparent transparent;
-}
-
-.comboCheckBox-normal > div:nth-child(2) div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 6px 0 6px;
-  border-color: rgba(0, 212, 255, 0.5) transparent transparent transparent;
-  background: none;
-  margin-top: 0 !important;
-}
-
-
-
-.fr-checkbox-control {
-  background: transparent;
-  line-height: 15px;
-}
-
-.fr-combo-list-item {
-  line-height: 15px;
-}
-
-/*文字編輯*/
-.textEditor-normal {
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 5px;
-  background-color: #061621;
-  box-shadow: border-box;
-}
-
-.textEditor-normal input {
-  border: none;
-  padding: 2px 8px !important;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
-  font-weight: bold;
-  color: rgba(252, 252, 252, 0.9);
-  background-color: transparent;
-}
-
-.textEditor-normal input::-webkit-input-placeholder {
-  color: rgba(252, 252, 252, 0.4);
-}
-
-
-
-/*數字編輯*/
-.numberEditor, .numberEditor-end {
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  background-color: #061621;
-  box-sizing: border-box;
-}
-
-.numberEditor-end {
-  border-radius: 0 5px 5px 0;
-}
-
-.numberEditor input, .numberEditor-end input {
-  border: none;
-  padding-left: 8px !important;
-  line-height: 100%;
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
-  font-weight: 500;
-  color: rgba(252, 252, 252, 0.8);
-  background-color: transparent;
-}
-
-.numberEditor input::-webkit-input-placeholder, .numberEditor-end input::-webkit-input-placeholder {
-  color: rgba(252, 252, 252, 0.4);
-}
-
 /*勾選(複選)框*/
 .checkBox {
   border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px;
   background-color: #061621;
   box-sizing: border-box;
   cursor: pointer;
@@ -657,7 +232,11 @@
 }
 
 .checkBox span {
+  position: absolute;
+  width: 100%;
+  margin-left: 0px !important; 
   background: none;
+  box-sizing: border-box;
 }
 
 .checkBox .fr-checkbox-checkon {
@@ -679,13 +258,14 @@
   transform: translate(-50%, -50%);
   margin: 0 !important;
   padding: 0 !important;
-  width: 70%;
-  height: 70%;
+  width: 20px;
+  height: 20px;
   content: " ";
   clip-path: polygon(15% 40%, 30% 30%, 50% 45%, 70% 20%, 85% 25%, 50% 80%);
   background-color: rgba(0, 212, 255, 0.9) !important;
   box-sizing: border-box;
 }
+
 
 
 

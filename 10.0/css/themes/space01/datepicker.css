@@ -1,6 +1,63 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
 
+/*日曆控件*/
+.dateEditor {
+
+}
+
+.dateEditor > div:nth-child(1) {
+  width: calc(100% - 30px) !important;
+  height: 100% !important;
+  border: none;
+  overflow: initial;
+  background-color: transparent;
+}
+
+.dateEditor input {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0px 8px !important;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-right: none;
+  border-radius: 3px 0px 0px 3px;
+  line-height: 100%;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #061621;
+  box-sizing: border-box;
+}
+
+.dateEditor div:nth-child(2) {
+  position: absolute !important;
+  width: 30px !important;
+  height: 100% !important;
+  right: 0px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 0px 3px 3px 0px;
+  background-color: #061621;
+  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.3) inset;
+  box-sizing: border-box;
+}
+
+.dateEditor div:nth-child(2):hover {
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.2) 0%, rgba(0, 212, 255, 0.3) 50%, rgba(0, 212, 255, 0.2) 100%);
+}
+
+.dateEditor div:nth-child(2):active {
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0.4) 0%, rgba(0, 212, 255, 0.5) 50%, rgba(0, 212, 255, 0.4) 100%);
+}
+
+.dateEditor div:nth-child(2):active div {
+  border-color: rgba(0, 212, 255, 0.7) transparent transparent transparent;
+}
+
+.dateEditor div:nth-child(2) div {
+  position: absolute;
+  left: 5.3px;
+}
+
 /*日曆彈出框*/
 .fr-datepicker {
   margin-top: 5px;
@@ -14,7 +71,7 @@
   border-top: 6px solid rgba(0, 212, 255, 0.7) !important;
   border-bottom: 6px solid rgba(0, 212, 255, 0.5) !important;
   border-radius: 5px;
-  background: transparent;
+  background: rgba(0, 22, 33, 0.7);
 }
 
 .fr-datepicker .dt:after {
@@ -23,15 +80,16 @@
   left: -5px;
   content: "請選擇日期";
   width: 240px;
-  height: 290px;
+  height: 280px;
   border: 1px solid rgba(0, 221, 255, 0.4);
   border-bottom: 4px solid rgba(0, 221, 255, 0.3);
   border-radius: 9px;
   color: rgba(0, 221, 255, 0.5);
   font-size: 12px;
   letter-spacing: 5px;
-  line-height: 535px;
+  line-height: 520px;
   text-align: center;
+  background-image: linear-gradient(to left, rgba(0, 212, 255, 0) 0%, rgba(0, 212, 255, 0.2) 50%, rgba(0, 212, 255, 0) 100%);
   box-sizing: border-box;
   z-index: -1;
 }
@@ -54,6 +112,7 @@
 }
 
 .fr-datepicker .dt thead .mainhead td {
+  border: none;
   color: rgba(0, 212, 255, 0.7);
   background: rgba(0, 212, 255, 0.3);
 }

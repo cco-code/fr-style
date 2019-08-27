@@ -34,3 +34,16 @@ div[widgetname=BODY] {
 .bbar {
  border-radius: 0 0 5px 5px;
 }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  transition-delay: 99999s;
+  transition: color 99999s ease-out, background-color 99999s ease-out;
+  -webkit-transition-delay: 99999s;
+  -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+}
+input:-internal-autofill-selected {
+  -webkit-transition-delay: 99999s;
+  -webkit-transition: color 99999s ease-out, background-color 99999s ease-out;
+  transition-delay: 99999s;
+  transition: color 99999s ease-out, background-color 99999s ease-out;
+}
