@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+@import url("button.css");
+@import url("label.css");
+
+* {
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
+}
+
+
+.red {
+  color: #fc5c65;
+}
+
+.red2 {
+  color: #eb3b5a;
+}
+
+.orange {
+  color: #fd9644;
+}
+
+.orange2 {
+  color: #fa8231;
+}
+
+.yellow {
+  color: #fed330;
+}
+
+.yellow2 {
+  color: #f7b731;
+}
+
+.green {
+  color: #26de81;
+}
+
+.green2 {
+  color: #20bf6b;
+}
+
+.peacock {
+  color: #2bcbba;
+}
+
+.peacock2 {
+  color: #0fb9b1;
+}
+
+.sky {
+  color: #45aaf2;
+}
+
+.sky2 {
+  color: #2d98da;
+}
+
+.blue {
+  color: #4b7bec;
+}
+
+.blue2 {
+  color: #3867d6;
+}
+
+.purple {
+  color: #a55eea;
+}
+
+.purple2 {
+  color: #8854d0;
+}
+
+.lightgray {
+  color: #d1d8e0;
+}
+
+.lightgray2 {
+  color: #a5b1c2;
+}
+
+.darkgray {
+  color: #778ca3;
+}
+
+.darkgray2 {
+  color: #4b6584;
+}
+
+.white {
+  color: #fcfcfc;
+}
+
+.black {
+  color: #151515;
+}
