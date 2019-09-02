@@ -44,7 +44,14 @@ function changeStyle() {
 
 
   $("[widgetname^='BUTTON']").addClass("button");
-  $("[widgetname^='BUTTON_HALFO']").addClass("buttonHalfO");
+  $("[widgetname*='BTNHALFO']").addClass("button-halfO");
+  $("[widgetname*='BTNTHALFO']").addClass("button-thalfO");
+  $("[widgetname*='BTNBHALFO']").addClass("button-bhalfO");
+  $("[widgetname*='BTNLHALFO']").addClass("button-lhalfO");
+  $("[widgetname*='BTNRHALFO']").addClass("button-rhalfO");
+  $("[widgetname*='BTNMHALFO']").addClass("button-mhalfO");
+  $("[widgetname^='BUTTON_PIC']").addClass("button-pic");
+  $("[widgetname^='BUTTON_TEXTNPIC']").addClass("button-textNpic");
 
   $("[widgetname^='COMBOBOX']").addClass("comboBox");
   $("[widgetname^='COMBOCHECKBOX']").addClass("comboCheckBox");

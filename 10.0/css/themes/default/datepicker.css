@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/*日曆控件*/
+.dateEditor {
+
+}
+
+.dateEditor > div:nth-child(1) {
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.dateEditor input {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0px !important;
+  line-height: 100%;
+  font-weight: 500;
+  color: #7d7d7d;
+  text-align: center;
+  letter-spacing: 1.5px;
+  background-color: #fcfcfc;
+}
+
+.dateEditor div:nth-child(2) {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.dateEditor div:nth-child(2):hover {
+  background-color: rgba(215, 215, 215, 0.25);
+}
+
+.dateEditor div:nth-child(2) div {
+  position: absolute;
+  background: none;
+}
+
+/*日曆彈出框*/
+.fr-datepicker {
+  margin-top: 5px;
+  box-shadow: none;
+}
+
+.fr-datepicker .dt {
+  margin-top: 1px;
+  border: 1px solid #cccccc !important;
+  border-radius: 3px;
+  background: #fcfcfc;
+}
+
+.fr-datepicker .dt thead {
+
+}
+
+.fr-datepicker .dt thead tr {
+
+}
+
+.fr-datepicker .dt thead tr td {
+  color: #7d7d7d;
+  font-weight: bold;
+}
+
+.fr-datepicker .dt thead .mainhead {
+
+}
+
+.fr-datepicker .dt thead .mainhead td {
+  border-bottom: 1px solid #cccccc;
+  color: #7d7d7d;
+  background: rgba(215, 215, 215, 0.25);
+}
+
+.fr-datepicker .dt thead .mainhead td:hover {
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  color: #3f3f3f;
+  background: rgba(215, 215, 215, 0.75) !important;
+}
+
+.fr-datepicker .dt thead .mainhead .prevm {
+  
+}
+
+.fr-datepicker .dt thead .mainhead .title {
+  
+}
+
+.fr-datepicker .dt thead .mainhead .nextm {
+  
+}
+
+.fr-datepicker .dt tbody {
+
+}
+
+.fr-datepicker .dt tbody .day {
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.fr-datepicker .dt tbody .day:hover {
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(215, 215, 215, 0.25) 60%, #fcfcfc 60%); 
+}
+
+.fr-datepicker .dt tbody tr {
+
+}
+
+.fr-datepicker .dt tbody tr td {
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+
+.fr-datepicker .dt .oday {
+  color: #cccccc;
+}
+
+.fr-datepicker .dt .day {
+  color: #7d7d7d;
+}
+
+.fr-datepicker .dt .name {
+  
+}
+
+.fr-datepicker .dt .wn {
+  border-right: none;
+  color: #7d7d7d;
+  font-weight: bold;
+  background: rgba(215, 215, 215, 0.25);
+}
+
+.fr-datepicker .dt .weekend {
+  
+}
+
+.fr-datepicker .dt .hover, .fr-datepicker .mt .hover {
+  border: none;
+  //background: rgba(215, 215, 215, 0.25) !important;
+}
+
+.fr-datepicker .dt .selected, .fr-datepicker .mt .selected {
+  border: none;
+  color: #408ded;
+  background: #a7cfff;
+}
+
+.fr-datepicker .dt .selected:hover, .fr-datepicker .mt .selected:hover {
+  background: none !important;
+  background-color: #7eb6f7 !important;
+}
+
+.fr-datepicker .mt .selected {
+  border: none;
+}
+
+.fr-datepicker .dt .fd {
+  
+}
+
+.fr-datepicker .dt .fd:hover {
+  border: none;
+  background: rgba(215, 215, 215, 0.75);
+}
+
+.fr-datepicker .dt tfoot {
+
+}
+
+.fr-datepicker .dt tfoot .optbtns {
+
+}
+
+.fr-datepicker .dt tfoot .optbtns .btn {
+  padding: 0;
+  border-top: 1px solid #cccccc;
+  color: #7d7d7d;
+  background: rgba(215, 215, 215, 0.25);
+}
+
+.fr-datepicker .dt tfoot .optbtns .btn:hover {
+  border: none;
+  border-top: 1px solid #cccccc;
+  color: #3f3f3f;
+  background: rgba(215, 215, 215, 0.75) !important;
+}
+
+.fr-datepicker .dt tfoot .optbtns .clear {
+  
+}
+
+.fr-datepicker .dt tfoot .optbtns .clear:hover {
+  
+}
+
+.fr-datepicker .dt tfoot .optbtns .today {
+  
+}
+
+.fr-datepicker .dt tfoot .optbtns .today:hover {
+  
+}
+
+.fr-datepicker .dt tfoot .optbtns .ok {
+  
+}
+
+.fr-datepicker .dt tfoot .optbtns .ok:hover {
+  
+}
+
+
+
+
+
+
+
+.fr-datepicker .mt {
+  height: 240px;
+  margin-top: 0px;
+  border: 1px solid #cccccc !important;
+  border-radius: 3px;
+  background: #fcfcfc;
+}
+
+.fr-datepicker .mt .hover {
+  
+}
+
+.fr-datepicker .mt .datemenubody {
+  color: #7d7d7d;
+}
+
+.fr-datepicker .mt .datemenubody tr {
+
+}
+
+.fr-datepicker .mt .datemenubody tr td {
+  border: none;
+  border-radius: 0px;
+}
+
+.fr-datepicker .mt .datemenubody .datemenutr {
+
+}
+
+.fr-datepicker .mt .datemenubody .datemenutr td {
+  background-color: #fcfcfc;
+}
+
+.fr-datepicker .mt tfoot {
+
+}
+
+.fr-datepicker .mt tfoot .optbtns {
+
+}
+
+.fr-datepicker .mt tfoot .optbtns td {
+
+}
+
+.fr-datepicker .mt tfoot .optbtns .btn {
+  border-top: 1px solid #cccccc;
+  padding: 0;
+  color: #7d7d7d;
+  background-color: rgba(215, 215, 215, 0.25);
+}
+
+.fr-datepicker .mt tfoot .optbtns .btn:hover {
+  border: none;
+  border-top: 1px solid #cccccc;
+  background: rgba(215, 215, 215, 0.75);
+}
+
+.fr-datepicker .mt tfoot .optbtns .ok {
+
+}
+
+.fr-datepicker .mt tfoot .optbtns .cancel {
+  
+}
