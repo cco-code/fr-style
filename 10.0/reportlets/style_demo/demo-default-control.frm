@@ -141,56 +141,214 @@ function appendHeadCss(){
 </Border>
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.CheckBoxGroup">
+<WidgetName name="CHECKBOXGROUP"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="太陽" value="太陽"/>
+<Dict key="星星" value="星星"/>
+<Dict key="月亮" value="月亮"/>
+<Dict key="宇宙" value="宇宙"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="898" y="482" width="180" height="100"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.RadioGroup">
+<WidgetName name="RADIOGROUP"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="星星" value="星星"/>
+<Dict key="太陽" value="太陽"/>
+<Dict key="月亮" value="月亮"/>
+<Dict key="地球" value="地球"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="712" y="482" width="180" height="100"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.TextEditor">
+<WidgetName name="TEXTEDITOR_02"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.PhoneReg">
+<PhoneReg phoneReg="025-85679591"/>
+</Reg>
+<watermark>
+<![CDATA[例如:025-85679591]]></watermark>
+<widgetValue>
+<O>
+<![CDATA[]]></O>
+</widgetValue>
+<MobileScanCodeAttr scanCode="true"/>
+</InnerWidget>
+<BoundsAttr x="898" y="264" width="80" height="30"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Password">
+<WidgetName name="PASSWORD_02"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<regMsg>
+<![CDATA[6]]></regMsg>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.LengthReg">
+<LenReg min="4" max="6"/>
+</Reg>
+<widgetValue>
+<O>
+<![CDATA[AAAAAAAAAAB]]></O>
+</widgetValue>
+<MobileScanCodeAttr scanCode="true"/>
+</InnerWidget>
+<BoundsAttr x="898" y="434" width="80" height="30"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Password">
+<WidgetName name="PASSWORD"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue>
+<O>
+<![CDATA[AAAAAAAAAA]]></O>
+</widgetValue>
+<MobileScanCodeAttr scanCode="true"/>
+</InnerWidget>
+<BoundsAttr x="712" y="434" width="180" height="30"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.TextArea">
+<WidgetName name="TEXTAREA"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue>
+<O>
+<![CDATA[習慣五：Even if you don’t FEEL like it, Do it anyway. 我不會等到我“有靈感”了才做這些該做的事，在工作計畫中，我當天的工作事項是什麼，我就會完成它，儘管「我好像沒什麼動力、好像沒什麼寫作、拍影片、錄影的感覺」我會把這些事情當成工作，說好要做完，就把它做完，星期二要寫訪綱，Do it anyway，星期三要寫文章，Do it anyway，星期五要回Email，Just Do it. 配合習慣三，當我要坐下來寫作時，其實就算我當天「沒有想要寫文章的感覺」，我還是有東西可以寫，就像是國文課被要求寫作文，題目一下來，架構也有了，腦中自然就有畫面了，那不管你那天有沒有Feel like it? 你的作品還是出來了。]]></O>
+</widgetValue>
+<MobileScanCodeAttr scanCode="true"/>
+</InnerWidget>
+<BoundsAttr x="712" y="344" width="180" height="80"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.NumberEditor">
+<WidgetName name="NUMBEREDITOR"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<NumberAttr>
+<widgetValue>
+<O t="D">
+<![CDATA[0.00123567]]></O>
+</widgetValue>
+</NumberAttr>
+</InnerWidget>
+<BoundsAttr x="712" y="304" width="180" height="30"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboCheckBox">
+<WidgetName name="COMBOCHECKBOX"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="紅茶拿鐵" value="紅茶拿鐵"/>
+<Dict key="皇家奶茶" value="皇家奶茶"/>
+<Dict key="德國花草茶" value="德國花草茶"/>
+<Dict key="日式烘烤煎茶" value="日式烘烤煎茶"/>
+<Dict key="純釀烏梅汁" value="純釀烏梅汁"/>
+<Dict key="野櫻梅醋" value="野櫻梅醋"/>
+<Dict key="蜜桃可爾必思" value="蜜桃可爾必思"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[紅茶拿鐵,皇家奶茶]]></O>
+</widgetValue>
+<RAAttr/>
+</InnerWidget>
+<BoundsAttr x="712" y="216" width="180" height="30"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ComboBox">
+<WidgetName name="COMBOBOX"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Dictionary class="com.fr.data.impl.CustomDictionary">
+<CustomDictAttr>
+<Dict key="黑咖啡" value="黑咖啡"/>
+<Dict key="濃縮咖啡" value="濃縮咖啡"/>
+<Dict key="特調咖啡" value="特調咖啡"/>
+<Dict key="卡布奇諾" value="卡布奇諾"/>
+<Dict key="拿鐵" value="拿鐵"/>
+<Dict key="蘇格蘭拿鐵" value="蘇格蘭拿鐵"/>
+<Dict key="摩卡咖啡" value="摩卡咖啡"/>
+<Dict key="榛果拿鐵" value="榛果拿鐵"/>
+<Dict key="焦糖瑪奇朵" value="焦糖瑪奇朵"/>
+</CustomDictAttr>
+</Dictionary>
+<widgetValue>
+<O>
+<![CDATA[請選擇商品品項]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="712" y="172" width="180" height="30"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.DateEditor">
-<WidgetName name="dateEditor0"/>
+<WidgetName name="DATEEDITOR"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
 <DateAttr/>
 <widgetValue>
 <O t="Date">
-<![CDATA[1567406245350]]></O>
+<![CDATA[1567353600000]]></O>
 </widgetValue>
 </InnerWidget>
-<BoundsAttr x="712" y="123" width="191" height="32"/>
+<BoundsAttr x="712" y="123" width="180" height="32"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.TextEditor">
-<WidgetName name="textEditor0"/>
+<WidgetName name="TEXTEDITOR"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
 <TextAttr/>
-<widgetValue/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue>
+<O>
+<![CDATA[工作事項是什麼]]></O>
+</widgetValue>
 <MobileScanCodeAttr scanCode="true"/>
 </InnerWidget>
-<BoundsAttr x="268" y="525" width="206" height="21"/>
-</Widget>
-<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
-<InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="label4"/>
-<WidgetAttr description="">
-<PrivilegeControl/>
-</WidgetAttr>
-<widgetValue/>
-<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
-<FRFont name="SimSun" style="0" size="72"/>
-<border style="0" color="-723724"/>
-</InnerWidget>
-<BoundsAttr x="614" y="511" width="49" height="158"/>
-</Widget>
-<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
-<InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="label3"/>
-<WidgetAttr description="">
-<PrivilegeControl/>
-</WidgetAttr>
-<widgetValue/>
-<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
-<FRFont name="SimSun" style="0" size="72"/>
-<border style="0" color="-723724"/>
-</InnerWidget>
-<BoundsAttr x="254" y="511" width="360" height="48"/>
+<BoundsAttr x="712" y="264" width="180" height="30"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.FreeButton">
@@ -223,7 +381,7 @@ function appendHeadCss(){
 <Text>
 <![CDATA[button2]]></Text>
 </InnerWidget>
-<BoundsAttr x="308" y="414" width="49" height="24"/>
+<BoundsAttr x="309" y="414" width="50" height="24"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.FreeButton">
@@ -234,7 +392,7 @@ function appendHeadCss(){
 <Text>
 <![CDATA[button1]]></Text>
 </InnerWidget>
-<BoundsAttr x="258" y="414" width="49" height="24"/>
+<BoundsAttr x="260" y="414" width="50" height="24"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.FreeButton">
@@ -245,7 +403,7 @@ function appendHeadCss(){
 <Text>
 <![CDATA[button0]]></Text>
 </InnerWidget>
-<BoundsAttr x="208" y="414" width="49" height="24"/>
+<BoundsAttr x="210" y="414" width="50" height="24"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
@@ -614,8 +772,10 @@ function appendHeadCss(){
 <Widget widgetName="BUTTON_DARKGRAY"/>
 <Widget widgetName="BUTTON_BLACK"/>
 <Widget widgetName="BUTTON_WHITE"/>
-<Widget widgetName="dateEditor0"/>
+<Widget widgetName="DATEEDITOR"/>
+<Widget widgetName="COMBOBOX"/>
 <Widget widgetName="label2"/>
+<Widget widgetName="COMBOCHECKBOX"/>
 <Widget widgetName="BUTTON_HALFO_RED"/>
 <Widget widgetName="BUTTON_HALFO_ORANGE"/>
 <Widget widgetName="BUTTON_HALFO_YELLOW"/>
@@ -626,8 +786,12 @@ function appendHeadCss(){
 <Widget widgetName="BUTTON_HALFO_PURPLE"/>
 <Widget widgetName="BUTTON_HALFO_LIGHTGRAY"/>
 <Widget widgetName="BUTTON_HALFO_DARKGRAY"/>
+<Widget widgetName="TEXTEDITOR"/>
+<Widget widgetName="TEXTEDITOR_02"/>
 <Widget widgetName="BUTTON_HALFO_BLACK"/>
 <Widget widgetName="BUTTON_HALFO_WHITE"/>
+<Widget widgetName="NUMBEREDITOR"/>
+<Widget widgetName="TEXTAREA"/>
 <Widget widgetName="label2_c"/>
 <Widget widgetName="label1"/>
 <Widget widgetName="BUTTON_TEXTNPIC"/>
@@ -636,10 +800,11 @@ function appendHeadCss(){
 <Widget widgetName="BUTTON_BTNMHALFO_LIGHTGRAY"/>
 <Widget widgetName="BUTTON_BTNRHALFO_LIGHTGRAY"/>
 <Widget widgetName="BUTTON_BTNTHALFO_RED"/>
+<Widget widgetName="PASSWORD"/>
+<Widget widgetName="PASSWORD_02"/>
 <Widget widgetName="BUTTON_BTNBHALFO_RED"/>
-<Widget widgetName="label3"/>
-<Widget widgetName="label4"/>
-<Widget widgetName="textEditor0"/>
+<Widget widgetName="RADIOGROUP"/>
+<Widget widgetName="CHECKBOXGROUP"/>
 </MobileWidgetList>
 <WidgetScalingAttr compState="0"/>
 <DesignResolution absoluteResolutionScaleW="1920" absoluteResolutionScaleH="1080"/>
