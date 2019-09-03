@@ -154,7 +154,7 @@
 .fr-datepicker .dt .selected, .fr-datepicker .mt .selected {
   border: none;
   color: #408ded;
-  background: #a7cfff;
+  background: #a7cfff !important;
 }
 
 .fr-datepicker .dt .selected:hover, .fr-datepicker .mt .selected:hover {
@@ -252,12 +252,28 @@
   border-radius: 0px;
 }
 
+.fr-datepicker .mt .datemenubody tr td:nth-child(3) {
+  
+}
+
+.fr-datepicker .mt .datemenubody .year {
+  font-weight: 500;
+}
+
 .fr-datepicker .mt .datemenubody .datemenutr {
 
 }
 
 .fr-datepicker .mt .datemenubody .datemenutr td {
   background-color: #fcfcfc;
+}
+
+.fr-datepicker .mt .datemenubody .datemenutr td:hover {
+  background: #eeeeee;
+}
+
+.fr-datepicker .mt .datemenubody .datemenutr .prevy, .fr-datepicker .mt .datemenubody .datemenutr .nexty {
+  cursor: pointer;
 }
 
 .fr-datepicker .mt tfoot {

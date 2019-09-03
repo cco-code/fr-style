@@ -283,17 +283,7 @@
   color: #fcfcfc;
 }*/
 
-/*滾動條*/
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-::-webkit-scrollbar-track, ::-webkit-scrollbar-corner {
-  background: rgb(235, 235, 235);
-}
-::-webkit-scrollbar-thumb {
-  background: rgb(9, 134, 255);
-}
+
 
 
 

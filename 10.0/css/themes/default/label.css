@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+
+
+.label-border {
+  border: 1px solid;
+}
+
+/*普通標題*/
+.label {
+  box-sizing: border-box;
+}
+
+.label table {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
+}
+
+.label pre {
+  width: 100% !important;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
+  font-weight: bold !important;
+  color: currentColor !important;
+}
+
+/*背景填滿標題*/
+.label-bg {
+  border: none;
+  background-color: #0986ff;
+}
+
+.label-bg pre {
+  color: #fcfcfc !important;
+}
+
+/*大主標題*/
+.label-bigtitle {
+  border: none;
+}
+
+.label-bigtitle pre {
+  color: rgba(255, 255, 255, 1) !important;
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.9);
+}
+
+/*中標題*//*副標題*/
+.label-middle, .label-subtitle {
+  box-sizing: border-box;
+}
+
+.label-middle {
+  border: 1px solid rgba(0, 212, 255, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.1) inset;
+}
+
+.label-subtitle {
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  padding-left: 8px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 212, 255, 0.3) inset;
+}
+
+.label-middle table, .label-subtitle table {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
+}
+
+.label-middle pre, .label-subtitle pre {
+  width: 100% !important;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
+  font-weight: 500 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.4);
+}
+
+/*面版標題*/
+.label-toptitle {
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #0986FF;
+  background-image: linear-gradient(to bottom, rgba(9, 163, 255, 1) 0%, rgba(9, 134, 255, 1) 40%, rgba(9, 107, 207, 1) 100%);
+}
+
+.label-toptitle pre {
+  width: 100% !important;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
+  font-weight: bold !important;
+  color: #fcfcfc !important;
+  letter-spacing: 2px;
+}
+
+/*報表面版標題*/
+.label-reporttitle {
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #0986FF;
+  background-image: linear-gradient(to bottom, rgba(9, 163, 255, 1) 0%, rgba(9, 134, 255, 1) 40%, rgba(9, 107, 207, 1) 100%);
+}
+
+.label-reporttitle pre {
+  width: 100% !important;
+  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
+  font-weight: bold !important;
+  color: #fcfcfc !important;
+  letter-spacing: 2px;
+}
+
+/*圖表面版*/
+.label-bgbd {
+  border: 2px solid #0986ff;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  box-shadow: 0px 0px 5px 1px rgba(56, 158, 255, 0.5);
+  box-sizing: border-box;
+}
+
+/*報表面版*/
+.label-reportbg {
+  border: 2px solid #0986ff;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  box-shadow: 0px 0px 5px 1px rgba(56, 158, 255, 0.5);
+  box-sizing: border-box;
+}
+
+
+

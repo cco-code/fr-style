@@ -2,9 +2,28 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
 @import url("button.css");
 @import url("label.css");
+@import url("comboBox.css");
+@import url("comboCheckBox.css");
+@import url("checkGroup.css");
+
+@import url("text.css");
+
+@import url("datepicker.css");
 
 * {
-  font-family: Roboto, "Noto Sans TC", "Microsoft JhrngHei", sans-serif !important;
+  font-family: Roboto, "Microsoft JhengHei", sans-serif !important;
+}
+
+/*滾動條*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner {
+  background: rgb(235, 235, 235);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(119, 140, 163, 0.5);
 }
 
 
