@@ -56,7 +56,7 @@ function changeStyle() {
   $("[widgetname^='COMBOBOX']").addClass("comboBox");
   $("[widgetname^='COMBOCHECKBOX']").addClass("comboCheckBox");
   $("[widgetname^='DATEEDITOR']").addClass("dateEditor");
-  $("[widgetname^='CBG']").addClass("checkBoxGroup");
+  $("[widgetname^='CHECKBGROUP']").addClass("checkBoxGroup");
   $("[widgetname^='RADIOGROUP']").addClass("radioGroup");
 
   $("[widgetname^='TEXTEDITOR']").addClass("textEditor");
