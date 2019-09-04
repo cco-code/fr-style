@@ -142,7 +142,7 @@ function appendHeadCss(){
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.CheckBoxGroup">
-<WidgetName name="CHECKBOXGROUP"/>
+<WidgetName name="CHECKBGROUP"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -804,7 +804,7 @@ function appendHeadCss(){
 <Widget widgetName="PASSWORD_02"/>
 <Widget widgetName="BUTTON_BTNBHALFO_RED"/>
 <Widget widgetName="RADIOGROUP"/>
-<Widget widgetName="CHECKBOXGROUP"/>
+<Widget widgetName="CHECKBGROUP"/>
 </MobileWidgetList>
 <WidgetScalingAttr compState="0"/>
 <DesignResolution absoluteResolutionScaleW="1920" absoluteResolutionScaleH="1080"/>
